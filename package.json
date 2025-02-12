@@ -1,0 +1,28 @@
+{
+  "name": "rendal-service-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "experss": "^0.0.1-security",
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vue2-google-maps": "^0.10.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "vite": "^6.0.11",
+    "vite-plugin-vue-devtools": "^7.7.1"
+  }
+}
